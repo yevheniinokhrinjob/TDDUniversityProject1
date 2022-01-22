@@ -1,0 +1,7 @@
+// 3 przebiegi
+
+java -classpath target/PlotDraw-1.0-shaded.jar pl.dmcs.PlotDraw.PlotDraw -data target/test-classes/plot1.csv,target/test-classes/plot2.csv,target/test-classes/plot3.csv -chart chart1 -title ExChart -xlabel xAxis -ylabel yAxis -xmin 0 -xmax 500 -ymin -50 -ymax 500 -style line
+
+// brak zakresów
+
+java -classpath target/PlotDraw-1.0-shaded.jar pl.dmcs.PlotDraw.PlotDraw -data target/test-classes/plot4.csv -chart chart2 -title ExChart -xlabel xAxis -ylabel yAxis -style line

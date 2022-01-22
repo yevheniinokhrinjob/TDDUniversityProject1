@@ -1,0 +1,78 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img">
+    <style>
+        body {
+          font-family: 'Open Sans', sans-serif;
+        }
+
+        .graph .labels.x-labels {
+          text-anchor: middle;
+        }
+
+        .graph .labels.y-labels {
+          text-anchor: end;
+        }
+
+
+        .graph {
+          height: 500px;
+          width: 1000px;
+        }
+
+        .graph .grid {
+          stroke: #ccc;
+          stroke-dasharray: 0;
+          stroke-width: 1;
+        }
+
+        .labels {
+          font-size: 13px;
+        }
+
+        .label-title {
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 12px;
+          fill: black;
+        }
+
+        .data {
+          stroke-width: 1; 
+        }
+    </style>
+    <g class="labels x-labels">
+        <text x="400" y="20" class="label-title">ExChart</text>
+    </g>
+    <g class="grid x-grid" id="xGrid">
+      <line x1="90" x2="90" y1="35" y2="401"></line>
+    </g>
+    <g class="grid y-grid" id="yGrid">
+      <line x1="90" x2="705" y1="400" y2="400"></line>
+    </g>
+    <g class="data" data-setname="Our first data set" style="fill: red;">
+        <circle cx="93.0" cy="302.0" r="4" />
+        <circle cx="234.0" cy="213.0" r="4" />
+        <circle cx="344.0" cy="124.0" r="4" />
+        <circle cx="575.0" cy="106.0" r="4" />
+        <circle cx="672.0" cy="89.0" r="4" />
+   </g>
+    <g>
+        <line x1="93" y1="302" x2="234" y2="213" stroke="red" />
+        <line x1="234" y1="213" x2="344" y2="124" stroke="red" />
+        <line x1="344" y1="124" x2="575" y2="106" stroke="red" />
+        <line x1="575" y1="106" x2="672" y2="89" stroke="red" />
+   </g>
+   <g>
+      <circle cx="800" cy="100" data-value="6.7" r="4" style="fill: red;"></circle>
+      <text x="815" y="105">plot4</text>
+   </g>
+     <g class="labels x-labels">
+      <text x="100" y="430">0</text>
+      <text x="684" y="430">60</text>
+      <text x="400" y="470" class="label-title">xAxis</text>
+    </g>
+    <g class="labels y-labels">
+      <text x="80" y="45">20</text>
+      <text x="80" y="403">0</text>
+      <text x="50" y="230" class="label-title" style="writing-mode: sideways-lr;">yAxis</text>
+    </g>
+</svg>

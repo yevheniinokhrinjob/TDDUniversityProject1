@@ -1,0 +1,106 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img">
+    <style>
+        body {
+          font-family: 'Open Sans', sans-serif;
+        }
+
+        .graph .labels.x-labels {
+          text-anchor: middle;
+        }
+
+        .graph .labels.y-labels {
+          text-anchor: end;
+        }
+
+
+        .graph {
+          height: 500px;
+          width: 1000px;
+        }
+
+        .graph .grid {
+          stroke: #ccc;
+          stroke-dasharray: 0;
+          stroke-width: 1;
+        }
+
+        .labels {
+          font-size: 13px;
+        }
+
+        .label-title {
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 12px;
+          fill: black;
+        }
+
+        .data {
+          stroke-width: 1; 
+        }
+    </style>
+    <g class="labels x-labels">
+        <text x="400" y="20" class="label-title">ExChart</text>
+    </g>
+    <g class="grid x-grid" id="xGrid">
+      <line x1="90" x2="90" y1="35" y2="401"></line>
+    </g>
+    <g class="grid y-grid" id="yGrid">
+      <line x1="90" x2="705" y1="400" y2="400"></line>
+    </g>
+    <g class="data" data-setname="Our first data set" style="fill: red;">
+        <circle cx="209.0" cy="303.0" r="4" />
+        <circle cx="328.0" cy="238.0" r="4" />
+        <circle cx="446.0" cy="173.0" r="4" />
+        <circle cx="565.0" cy="109.0" r="4" />
+        <circle cx="684.0" cy="44.0" r="4" />
+   </g>
+    <g>
+        <line x1="209" y1="303" x2="328" y2="238" stroke="red" />
+        <line x1="328" y1="238" x2="446" y2="173" stroke="red" />
+        <line x1="446" y1="173" x2="565" y2="109" stroke="red" />
+        <line x1="565" y1="109" x2="684" y2="44" stroke="red" />
+   </g>
+    <g class="data" data-setname="Our first data set" style="fill: blue;">
+        <circle cx="102.0" cy="361.0" r="4" />
+        <circle cx="114.0" cy="342.0" r="4" />
+        <circle cx="328.0" cy="335.0" r="4" />
+        <circle cx="565.0" cy="329.0" r="4" />
+   </g>
+    <g>
+        <line x1="102" y1="361" x2="114" y2="342" stroke="blue" />
+        <line x1="114" y1="342" x2="328" y2="335" stroke="blue" />
+        <line x1="328" y1="335" x2="565" y2="329" stroke="blue" />
+   </g>
+    <g class="data" data-setname="Our first data set" style="fill: yellow;">
+        <circle cx="90.0" cy="368.0" r="4" />
+        <circle cx="209.0" cy="173.0" r="4" />
+        <circle cx="328.0" cy="109.0" r="4" />
+        <circle cx="446.0" cy="76.0" r="4" />
+        <circle cx="565.0" cy="57.0" r="4" />
+   </g>
+    <g>
+        <line x1="90" y1="368" x2="209" y2="173" stroke="yellow" />
+        <line x1="209" y1="173" x2="328" y2="109" stroke="yellow" />
+        <line x1="328" y1="109" x2="446" y2="76" stroke="yellow" />
+        <line x1="446" y1="76" x2="565" y2="57" stroke="yellow" />
+   </g>
+   <g>
+      <circle cx="800" cy="100" data-value="6.7" r="4" style="fill: red;"></circle>
+      <text x="815" y="105">plot1</text>
+      <circle cx="800" cy="120" data-value="6.7" r="4" style="fill: blue;"></circle>
+      <text x="815" y="125">plot2</text>
+      <circle cx="800" cy="140" data-value="6.7" r="4" style="fill: yellow;"></circle>
+      <text x="815" y="145">plot3</text>
+   </g>
+     <g class="labels x-labels">
+      <text x="100" y="430">0</text>
+      <text x="684" y="430">500</text>
+      <text x="400" y="470" class="label-title">xAxis</text>
+    </g>
+    <g class="labels y-labels">
+      <text x="80" y="45">500</text>
+      <text x="80" y="403">-50</text>
+      <text x="50" y="230" class="label-title" style="writing-mode: sideways-lr;">yAxis</text>
+    </g>
+</svg>
